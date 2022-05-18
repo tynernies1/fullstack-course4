@@ -4,3 +4,16 @@ body {
   background-color: #61122f;
   font-family: 'Oxygen', sans-serif;
 }
+
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0px;
+  border: none;
+}
+
+#logo-img {
+  background: url('../images/restaurant-logo_large.png');
+  width: 150px;
+  height: 150px;
+  margin: 10px 10px 10px 0px;
+}
