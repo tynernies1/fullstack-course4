@@ -88,6 +88,37 @@ body {
   box-shadow: 0 0 50px #3F0C1F;
   border: 2px solid #3F0C1F;
 }
+#menu-tile, #specials-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 0 5px #cccccc;
+}
+#menu-tile {
+  background: url('../images/menu-tile.jpg') no-repeat;
+  background-position: center;
+}
+#specials-tile {
+  background: url('../images/specials-tile.jpg') no-repeat;
+  background-position: center;
+}
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
 
 /* END HOME PAGE */
 
@@ -178,5 +209,48 @@ body {
     margin-top: 30px;
     padding: 0;
   }
-
+  #menu-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+  .panel-footer {
+    text-align: center;
+  }
 }
+@media (max-width: 479px) {
+  #menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+  .navbar-brand h1 {
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+}
+.panel-footer {
+  background-color: #222;
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#Hours, #Address, #Quotes {
+  line-height: 2;
+} 
+#Hours span, #Address span {
+  font-size: 1.3em;
+}
+#Quotes p {
+  font-style: italic;
+}
+#delivery {
+  font-size: .8em;
+  color: #557c3e;
+}
+hr {
+  width: 50%;
+}
+
