@@ -1,0 +1,47 @@
+body {
+    font-size: 16px;
+    color: #000;
+    font-family: 'Varela Round', sans-serif;
+  }
+#header {
+    text-align: center;
+    font-weight: bold;
+}
+#header-nav {
+    background-color: gray;
+    border: 2px solid #000;
+    border-radius: 0;
+}
+.navbar-header button.navbar-toggle, .icon-bar {
+    border: 1px solid #000;
+}
+.navbar-brand h1 {
+    color: #000;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.row {
+    background-color: gray;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+.menu-item h2 {
+    font-size: 1em;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.menu-item p {
+    text-transform: lowercase;
+}
+@media (max-width: 768px) {
+    .row {
+        
+        
+    }
+}
