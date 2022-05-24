@@ -22,13 +22,34 @@ body {
     margin-bottom: 10px;
     font-weight: bold;
 }
-.row {
+#collapsable-nav {
+    padding: 0 0; 
+    border: 0;
+}
+#nav-list {
+    margin: 0px 0px 0px 0px;
+}
+#nav-list .row {
+    border: 1px solid #000;
+    margin: 0 0;
+    padding: 0 0;
+    text-align: center;
+    background-color: #fff;
+}
+#nav-list span {
+    color: #000;
+}
+#main-content {
+    padding: 0;
+}
+#main-content .row {
     background-color: gray;
+    margin-left: 5px;
     margin-bottom: 30px;
+    margin-right: 5px;
+    padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 5px;
-    padding-bottom: 20px;
-    margin: auto;
 }
 
 .menu-item h2 {
@@ -36,12 +57,18 @@ body {
     margin-top: 10px;
     font-weight: bold;
 }
+
 .menu-item p {
     text-transform: lowercase;
 }
-@media (max-width: 768px) {
-    .row {
-        
-        
+.back-to-top {
+    text-decoration: underline;
+    padding-left: 5px;
+    color: blue;
+}
+@media (max-width: 767px) {
+    #main-content .row {
+        margin: 20px 40px; 
     }
 }
+
