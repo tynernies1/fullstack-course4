@@ -3,10 +3,7 @@ body {
     color: #000;
     font-family: 'Varela Round', sans-serif;
   }
-#header {
-    text-align: center;
-    font-weight: bold;
-}
+
 #header-nav {
     background-color: gray;
     border: 2px solid #000;
@@ -71,4 +68,9 @@ body {
         margin: 20px 40px; 
     }
 }
-
+@media
+(prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
